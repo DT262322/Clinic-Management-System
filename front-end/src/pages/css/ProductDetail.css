@@ -1,0 +1,168 @@
+.product-detail-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.product-images {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.thumbnail-images {
+  display: flex;
+  margin-top: 10px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-code {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 28px;
+  color: #ee4d2d;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-tax-info {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.heart-icon {
+  color: #ee4d2d;
+  margin-right: 5px;
+}
+
+.product-variant h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.variant-button {
+  background-color: #fff;
+  border: 1px solid #ee4d2d;
+  color: #ee4d2d;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.promotion-tag {
+  display: inline-block;
+  background-color: #ffeee8;
+  color: #ee4d2d;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.promotion-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.gift-icon {
+  margin-right: 5px;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity-selector button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity-selector input {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buy-now-button {
+  background-color: #ee4d2d !important;
+  border-color: #ee4d2d !important;
+}
+
+.add-to-cart-button {
+  background-color: #ffeee8 !important;
+  border-color: #ee4d2d !important;
+  color: #ee4d2d !important;
+}
+
+.product-features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.feature-icon {
+  margin-right: 5px;
+}
+
+.product-details {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.detail-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.detail-label {
+  flex: 1;
+  font-weight: bold;
+}
+
+.detail-value {
+  flex: 2;
+}

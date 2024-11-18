@@ -1,0 +1,119 @@
+.custom-dialog {
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.custom-dialog .p-dialog-header {
+    background-color: #f8f9fa;
+    color: #343a40;
+    border-bottom: 1px solid #e9ecef;
+    padding: 1.25rem;
+    font-weight: 600;
+}
+
+.custom-dialog .p-dialog-content {
+    padding: 1.5rem;
+}
+
+.dialog-content {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.p-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-field label {
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    color: #495057;
+}
+
+.p-field input,
+.p-field .p-dropdown {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+}
+
+.p-field input:focus,
+.p-field .p-dropdown:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+.p-field input:disabled {
+    background-color: #f1f3f5;
+}
+
+.p-button {
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.p-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-weight: 600;
+    padding: 0.9rem;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+    transition: background-color 0.2s ease;
+}
+
+.p-datatable .p-datatable-tbody > tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+    background-color: #e9ecef;
+}
+
+.p-button-rounded {
+    width: 2.3rem;
+    height: 2.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.4rem;
+}
+
+.search-container {
+    margin-bottom: 1rem; 
+    display: flex; 
+    align-items: center;
+}
+
+.search-container input {
+    border: 1px solid #dcdcdc; 
+    border-radius: 4px; 
+    padding: 0.5rem 1rem; 
+    width: 100%; 
+    box-sizing: border-box; 
+    font-size: 1rem;
+    color: #333; 
+    margin-top: 15px;
+}
+
+.search-container input::placeholder {
+    color: #888; 
+    font-style: italic; 
+}
+
+.search-container input:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}

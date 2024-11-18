@@ -1,0 +1,25 @@
+.p-dialog {
+    width: 600px; /* Kích thước của dialog */
+    max-width: 90%; /* Kích thước tối đa */
+}
+
+.p-dialog-header {
+    background-color: #000400; /* Màu nền tiêu đề */
+    color: white; /* Màu chữ tiêu đề */
+    font-size: 1.5rem; /* Kích thước chữ tiêu đề */
+}
+
+.p-dialog .p-inputtext,
+.p-dialog .p-inputtextarea {
+    width: 100%; /* Chiều rộng của trường nhập */
+    margin-bottom: 15px; /* Khoảng cách giữa các trường nhập */
+}
+
+.p-dialog .p-button {
+    margin-right: 10px; /* Khoảng cách giữa các nút */
+}
+
+.p-dialog-footer {
+    display: flex;
+    justify-content: flex-end; /* Căn chỉnh các nút sang bên phải */
+}

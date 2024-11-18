@@ -1,0 +1,123 @@
+/* Admin Dashboard Styles - Compact and Elegant */
+.admin-dashboard {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.admin-dashboard h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.admin-dashboard .p-panel {
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+
+.admin-dashboard .p-panel .p-panel-header {
+    background-color: #34495e;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0.75rem;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.admin-dashboard .stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.admin-dashboard .stat-item {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.admin-dashboard .stat-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
+}
+
+.admin-dashboard .stat-item h3 {
+    margin-bottom: 10px;
+    color: #7f8c8d;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.admin-dashboard .stat-item p {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.admin-dashboard .p-datatable-gridlines {
+    margin-top: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.admin-dashboard .p-datatable-gridlines .p-datatable-header {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0.5rem 0.75rem;
+}
+
+.admin-dashboard .p-button {
+    display: block;
+    margin: 15px auto 0;
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 0.9em;
+}
+
+.admin-dashboard .p-button:hover {
+    background-color: #2c3e50;
+}
+
+.admin-dashboard .chart-container {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.admin-dashboard .chart-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .admin-dashboard .stats {
+        flex-direction: column;
+    }
+    
+    .admin-dashboard .stat-item {
+        margin: 10px 0;
+    }
+}

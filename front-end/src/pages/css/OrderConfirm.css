@@ -1,0 +1,52 @@
+.order-confirm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--surface-ground);
+}
+
+.order-confirm-card {
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-confirm-card .p-card-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.order-confirm-card .p-message {
+    margin-bottom: 1rem;
+    
+}
+
+.order-confirm-container .message-detail {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--text-color-secondary);
+}
+
+.order-confirm-container .thank-you-message {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    color: var(--text-color-secondary);
+}
+
+.order-confirm-container .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.order-confirm-container .button-container .p-button {
+    min-width: 150px;
+}
+.p-inline-message{
+    width: 100%;
+    align-items: center;
+    font-style: oblique;
+}

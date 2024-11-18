@@ -1,0 +1,122 @@
+body {
+    margin-top: 60px;
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    background-color: #f0f8ff;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.p-menubar {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+    padding: 0.6rem 0.8rem;
+    transition: background-color 0.3s ease;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+    margin-right: 0.5rem;
+    color: #4a90e2;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+    color: #333333;
+    font-weight: 500;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+    background-color: #e6f2ff;
+}
+
+.p-inputtext {
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    border-radius: 20px;
+    border: 1px solid #d1d5db;
+}
+
+.p-avatar {
+    border: 2px solid #4a90e2;
+}
+
+.flex.align-items-center.gap-3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.p-input-icon-left {
+    position: relative;
+}
+
+.p-input-icon-left i {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9CA3AF;
+}
+
+.p-button.p-button-rounded {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+}
+
+.p-button.p-button-rounded .p-button-icon {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.p-button.p-button-rounded .p-button-label {
+    display: none;
+}
+
+/* New styles for the search button */
+.p-inputgroup {
+    display: flex;
+    align-items: center;
+}
+
+.p-inputgroup .p-inputtext {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+.p-inputgroup .p-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    color: #ffffff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.p-inputgroup .p-button:hover {
+    background-color: #3a7bc8;
+    border-color: #3a7bc8;
+}
+
+.p-inputgroup .p-button:focus {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #4a90e2;
+}
+
+.p-inputgroup .p-button .p-button-icon {
+    font-size: 1rem;
+}

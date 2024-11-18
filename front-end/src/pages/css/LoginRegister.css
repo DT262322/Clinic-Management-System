@@ -1,0 +1,96 @@
+.auth-container {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.auth-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.auth-toggle .p-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.auth-toggle .p-button:not(.p-button-primary) {
+  background-color: transparent;
+  color: #666;
+}
+
+.auth-toggle .p-button:hover {
+  transform: translateY(-2px);
+}
+
+.auth-container .login-container,
+.auth-container .register-container {
+  padding: 20px 0;
+}
+
+.auth-container h2 {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.auth-container .p-field {
+  margin-bottom: 25px;
+}
+
+.auth-container .p-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: 600;
+}
+
+.auth-container .p-inputtext,
+.auth-container .p-password input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.auth-container .p-inputtext:focus,
+.auth-container .p-password input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.auth-container .p-button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #4a90e2;
+  transition: all 0.3s ease;
+}
+
+.auth-container .p-button:hover {
+  background-color: #3a7bc8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
+}
+
+@media (max-width: 480px) {
+  .auth-container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+  }
+}
